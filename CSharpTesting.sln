@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpTestingSorting", "CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTestingThreads", "CSharpTestingThreads\CSharpTestingThreads.csproj", "{BCE8FD4E-560E-4C6D-A414-5445802E7A46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{B8852003-1BC0-4A34-B92B-BD981DD83249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BCE8FD4E-560E-4C6D-A414-5445802E7A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE8FD4E-560E-4C6D-A414-5445802E7A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE8FD4E-560E-4C6D-A414-5445802E7A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8852003-1BC0-4A34-B92B-BD981DD83249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8852003-1BC0-4A34-B92B-BD981DD83249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8852003-1BC0-4A34-B92B-BD981DD83249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8852003-1BC0-4A34-B92B-BD981DD83249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
