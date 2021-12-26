@@ -17,7 +17,6 @@ namespace CSharpTestingThreads
             {
                 Console.WriteLine(i.ToString());
                 Thread.Sleep(1000);
-
             }
         }
     }

@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpTestingSorting", "CSharpTesting\CSharpTestingSorting.csproj", "{AC3E92D0-31D2-4814-AA54-DA5AB3DAA752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTestingThreads", "CSharpTestingThreads\CSharpTestingThreads.csproj", "{BCE8FD4E-560E-4C6D-A414-5445802E7A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpTestingThreads", "CSharpTestingThreads\CSharpTestingThreads.csproj", "{BCE8FD4E-560E-4C6D-A414-5445802E7A46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{B8852003-1BC0-4A34-B92B-BD981DD83249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{B8852003-1BC0-4A34-B92B-BD981DD83249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
