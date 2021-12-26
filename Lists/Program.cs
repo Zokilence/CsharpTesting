@@ -7,7 +7,9 @@ namespace Lists
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<Promenljive> vrednosti = new List<Promenljive>();
+            vrednosti.Add(new Promenljive("zoran", 15));
+            vrednosti.Add(new Promenljive("goran", 16));
         }
     }
 }
