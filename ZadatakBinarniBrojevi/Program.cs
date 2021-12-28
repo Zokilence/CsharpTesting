@@ -28,8 +28,7 @@ namespace ZadatakBinarniBrojevi
             }
             //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
-            int broj = 917;
-            int razlika = 0;
+            int broj= 917; 
             // int kolikoKvadrata=0;
             int[] binaranZapis;
             for (int i = 0; i < kvadratiDva.Length; i++)
@@ -38,12 +37,12 @@ namespace ZadatakBinarniBrojevi
                 if (razlika < 0)
                 {
                     //    kolikoKvadrata = i;    
-                    stvaranjeBinarnogBroja(binaranZapis = new int[i]);
+                    stvaranjeBinarnogBroja(binaranZapis = new int[i], broj);
                     break;
                 }
             }
             //f-ja
-            int[] stvaranjeBinarnogBroja(int[] prazanNiz)
+            int[] stvaranjeBinarnogBroja(int[] prazanNiz, int unetBroj)
             {
                 for (int i = 0; i < prazanNiz.Length; i++)
                 {
@@ -54,13 +53,12 @@ namespace ZadatakBinarniBrojevi
                         temp1++;
                         if (broj <= 0)
                         {
-                           oduzimanje(int brojSaKomeTrebaOduezeti);
-
+                            oduzimanje(kvadratiDva[temp1-1]); 
                         }
                     }
-                    int oduzimanje(int a)
-                    {
-                        return
+                    int oduzimanje(int konacanBroj)
+                    { 
+                        return konacanBroj = broj - konacanBroj;
                     }
                 }
                 return binaranZapis;
