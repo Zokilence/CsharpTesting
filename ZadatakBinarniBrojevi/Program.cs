@@ -12,7 +12,7 @@ namespace ZadatakBinarniBrojevi
 
             //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
             //skripta koja u niz dodaje kvadrate dvojke
-            int[] kvadratiDva = new int[15];
+            int[] kvadratiDva = new int[16];
             kvadratiDva[0] = 1;
             int povecavanjeKvadrata = 1;
           
@@ -30,17 +30,31 @@ namespace ZadatakBinarniBrojevi
 
             int broj = 917;
             int razlika = 0;
-            int kolikoKvadrata=0;
+           // int kolikoKvadrata=0;
+            int[] binaranZapis;
             for (int i = 0; i < kvadratiDva.Length; i++)
             {
                 razlika = broj - kvadratiDva[i];
                 if (razlika < 0)
                 {
-                    kolikoKvadrata = i-1;  
+                    //    kolikoKvadrata = i;    
+                    stvaranjeBinarnogBroja(binaranZapis = new int[i]);
                     break;
                 }
             }
-
+            int[] stvaranjeBinarnogBroja(int[] prazanNiz)
+            {
+                for (int i = 0; i < prazanNiz.Length; i++)
+                {
+                    int temp1 = 0;
+                    while (broj>=0)
+                    {  
+                        broj -= kvadratiDva[temp1];
+                        temp1++;
+                    }
+                }
+                return binaranZapis;
+            }
         }
     }
 }
