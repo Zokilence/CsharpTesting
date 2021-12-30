@@ -33,11 +33,11 @@
                 return binarniZapis = new int[x];
             }
             //-=-=-=-=METODA POPUNJAVANJA NIZA BINARNIM BROJEVIMA-=-=-=-=-=
-            int[] popunjavanjeNiza(int broj1,int provera1, bool binaryFormat1, int[] binarniZapis1)
-            { 
-                for (int p = 0; p < provera1; p++)
+            int[] popunjavanjeNiza(int broj1, int provera1, bool binaryFormat1, int[] binarniZapis1)
+            {
+                for (int p = 0; p <= provera1; p++)
                 {
-                    if (broj1 == kvadratiDva[p+1])
+                    if (broj1 == kvadratiDva[p])
                     {
                         //   binaryFormat1 = true;
                         binarniZapis1[p] = 1;
@@ -45,7 +45,7 @@
                     else
                     {
                         //  binaryFormat1 = false;
-                        binarniZapis1[p] = 0;
+                        binarniZapis1[p] = 2;
                     }
                     //switch (binaryFormat1)
                     //{
@@ -55,28 +55,28 @@
                     //    case false:
                     //        binarniZapis1[p] = 2;
                     //        break;
-                    //}
+                    //} 
                 }
                 return binarniZapis1;
-            } 
+            }
             int provera = 0;
             bool ogranicenje = false;
             for (int i = kvadratiDva.Length - 1; i >= 0; i--)
             {
-                bool binaryFormat = false; 
+                bool binaryFormat = false;
                 if (broj - kvadratiDva[i] >= 0)
                 {
                     broj -= kvadratiDva[i];
                     provera = i;
                     if (ogranicenje == false)
                     {
-                        velicinaNiza(provera);
+                        velicinaNiza(provera+1);
                     }
                     ogranicenje = true;
-                    popunjavanjeNiza(kvadratiDva[i],provera, binaryFormat, binarniZapis);
+                    popunjavanjeNiza(kvadratiDva[i], provera, binaryFormat, binarniZapis);
                 }
-
+                
             }
-        }
+         }
     }
 }
