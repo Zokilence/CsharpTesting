@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpTestingThreads", "CSh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{B8852003-1BC0-4A34-B92B-BD981DD83249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadatakBinarniBrojevi", "ZadatakBinarniBrojevi\ZadatakBinarniBrojevi.csproj", "{D86D4AA1-091A-4BDF-841D-7A1A4D1AC732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadatakBinarniBrojevi", "ZadatakBinarniBrojevi\ZadatakBinarniBrojevi.csproj", "{D86D4AA1-091A-4BDF-841D-7A1A4D1AC732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{80F59002-7AEF-4C16-ADD3-54A4621A51C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D86D4AA1-091A-4BDF-841D-7A1A4D1AC732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D86D4AA1-091A-4BDF-841D-7A1A4D1AC732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86D4AA1-091A-4BDF-841D-7A1A4D1AC732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F59002-7AEF-4C16-ADD3-54A4621A51C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F59002-7AEF-4C16-ADD3-54A4621A51C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F59002-7AEF-4C16-ADD3-54A4621A51C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F59002-7AEF-4C16-ADD3-54A4621A51C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
