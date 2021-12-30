@@ -1,4 +1,7 @@
-﻿namespace ZadatakBinarniBrojevi
+﻿using System;
+using System.Collections.Generic;
+
+namespace ZadatakBinarniBrojevi
 {
     class Program
     {
@@ -24,9 +27,8 @@
                 povecavanjeKvadrata++;
             }
             //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-            //int brojUnos;
-            //Console.ReadLine("Unesite broj dekadnog br. sistema:"+"\n" + brojUnos);
-            int broj = 917;
+            Console.WriteLine("Unesite broj dekadnog br. sistema:"+"\n");
+            int broj = Convert.ToInt32(Console.ReadLine()); 
             int[] binarniZapis = new int[1];
             int[] velicinaNiza(int x)
             {
@@ -45,7 +47,7 @@
                     else
                     {
                         //  binaryFormat1 = false;
-                        binarniZapis1[p] = 2;
+                        binarniZapis1[p] = 0;
                     }
                     //switch (binaryFormat1)
                     //{
@@ -70,13 +72,18 @@
                     provera = i;
                     if (ogranicenje == false)
                     {
-                        velicinaNiza(provera+1);
+                        velicinaNiza(provera + 1);
                     }
                     ogranicenje = true;
                     popunjavanjeNiza(kvadratiDva[i], provera, binaryFormat, binarniZapis);
-                }
-                
+                } 
             }
-         }
+            Console.WriteLine("Broj u binarnom formatu:");
+            Array.Reverse(binarniZapis);
+            for (int y = 0; y < binarniZapis.Length; y++)
+            {
+                Console.Write(binarniZapis[y]);
+            }
+        }
     }
 }
