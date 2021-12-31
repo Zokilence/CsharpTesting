@@ -27,8 +27,16 @@ namespace ZadatakBinarniBrojevi
                 povecavanjeKvadrata++;
             }
 
-            glavnaSkripta();
-
+            //glavnaSkripta();
+            try
+            {
+                glavnaSkripta();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Nedozvoljen pokušaj -> " + e.Message);
+                glavnaSkripta();
+             }
             //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
             void glavnaSkripta()
             {
@@ -93,7 +101,7 @@ namespace ZadatakBinarniBrojevi
                 //{
                 //    glavnaSkripta();
                 //}
-            }
+            } 
             Console.ReadLine();
         }
     }
