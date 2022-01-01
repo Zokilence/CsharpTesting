@@ -50,16 +50,10 @@ namespace ZadatakBinarniBrojevi
                 //-=-=-=-=METODA POPUNJAVANJA NIZA BINARNIM BROJEVIMA-=-=-=-=-=
                 int[] popunjavanjeNiza(int broj1, int provera1, bool binarniFormat, int[] binarniZapis1)
                 {
+
                     for (int p = 0; p <= provera1; p++)
                     {
-                        if (broj1 == kvadratiDva[p])
-                        {
-                            binarniFormat = true;
-                        }
-                        else
-                        {
-                            binarniFormat = false;
-                        }
+                        binarniFormat = (broj1 == kvadratiDva[p]) ? true : false;
                         switch (binarniFormat)
                         {
                             case true:
@@ -69,7 +63,7 @@ namespace ZadatakBinarniBrojevi
                                 binarniZapis1[p] = 0;
                                 break;
                         }
-                    }
+                    } 
                     return binarniZapis1;
                 }
                 int provera = 0;
