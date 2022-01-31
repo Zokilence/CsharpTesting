@@ -16,9 +16,9 @@ namespace CSharpTesting
             { }
             /*
             //rastuci   1,3,5,2,4,6 -> 6,5,4,3,2,1 
-            for (int i = 0; i < niz.Length; i++)
+            for (int i = 0; i < niz.Length-1; i++)
             {
-                for (int j = 0; j < niz.Length; j++)
+                for (int j = i+1; j < niz.Length; j++)
                 {
                     if (niz[j] < niz[i])
                     {
@@ -54,7 +54,25 @@ namespace CSharpTesting
                     }
                 }
             }
-             
+
+            /*
+            bool promena = false;
+            int pomocna = 0;
+            do
+            {
+                promena = false;
+                for (int i = 0; i < niz.Length - 1; i++)
+                {
+                    if (niz[i] > niz[i + 1])
+                    {
+                        pomocna = niz[i];
+                        niz[i] = niz[i + 1];
+                        niz[i + 1] = pomocna;
+                        promena = true;
+                    }
+                }
+            } while (promena);
+            */
 
             foreach (var cifra in niz)
             {
