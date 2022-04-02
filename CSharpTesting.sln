@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadatakBinarniBrojevi", "Za
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays", "arrays\arrays.csproj", "{80F59002-7AEF-4C16-ADD3-54A4621A51C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadatakNizoviPremestanje", "zadatakNizoviPremestanje\zadatakNizoviPremestanje.csproj", "{25088BC4-C50A-44DA-BA30-838117CA76DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zadatakNizoviPremestanje", "zadatakNizoviPremestanje\zadatakNizoviPremestanje.csproj", "{25088BC4-C50A-44DA-BA30-838117CA76DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reccursion", "Reccursion\Reccursion.csproj", "{77D164E3-BC62-4F17-980E-7EBFA44B72DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{25088BC4-C50A-44DA-BA30-838117CA76DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25088BC4-C50A-44DA-BA30-838117CA76DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25088BC4-C50A-44DA-BA30-838117CA76DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D164E3-BC62-4F17-980E-7EBFA44B72DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D164E3-BC62-4F17-980E-7EBFA44B72DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D164E3-BC62-4F17-980E-7EBFA44B72DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D164E3-BC62-4F17-980E-7EBFA44B72DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
