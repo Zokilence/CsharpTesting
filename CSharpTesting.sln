@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zadatakNizoviPremestanje", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reccursion", "Reccursion\Reccursion.csproj", "{77D164E3-BC62-4F17-980E-7EBFA44B72DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encryptionTest", "encryptionTest\encryptionTest.csproj", "{5011D89A-AD73-4CD9-95EE-0012547AF2DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encryptionTest", "encryptionTest\encryptionTest.csproj", "{5011D89A-AD73-4CD9-95EE-0012547AF2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mailTest", "mailTest\mailTest.csproj", "{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5011D89A-AD73-4CD9-95EE-0012547AF2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5011D89A-AD73-4CD9-95EE-0012547AF2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5011D89A-AD73-4CD9-95EE-0012547AF2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
