@@ -53,10 +53,8 @@ namespace encryptionTest
             }
             return result.ToString();
         }
-
-        static void Main(string[] args)
+      public static  void enkriptijaNiza(string[] inputZaSifrovanje)
         {
-            string[] inputZaSifrovanje = { "zovem", "se", "zoran" };
             Console.Write("MD5 i RC4 za niz:");
             foreach (var item in inputZaSifrovanje)
             {
@@ -71,6 +69,20 @@ namespace encryptionTest
                 Console.WriteLine("RC4 Encryption: " + rc4text);
                 Console.WriteLine("RC4 Decryption: " + RC4(rc4text, "123"));
             }
+        }
+
+
+        static void Main(string[] args)
+        {
+            //string[] inputZaSifrovanje = { "zovem", "se", "zoran" };
+            //enkriptijaNiza(inputZaSifrovanje);
+
+            Console.WriteLine("Vaš MD5 Encryption(no Salt): " + MD5Encrypt("peric123"));
+            Console.WriteLine("Vaš MD5 Encryption(no Salt): " + MD5Encrypt(MD5Encrypt("peric123")));
+
+            Console.WriteLine("RC4 Encryption: " + RC4("peric123", "123"));
+            Console.WriteLine("RC4 Decryption: " + RC4(RC4("peric123", "123"), "123"));
+
         }
     }
 }
