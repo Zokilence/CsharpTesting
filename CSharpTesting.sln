@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reccursion", "Reccursion\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "encryptionTest", "encryptionTest\encryptionTest.csproj", "{5011D89A-AD73-4CD9-95EE-0012547AF2DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mailTest", "mailTest\mailTest.csproj", "{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mailTest", "mailTest\mailTest.csproj", "{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "octalBrojevi", "octalBrojevi\octalBrojevi.csproj", "{9FF1A81D-4B6B-43D9-894B-D061B71EB68D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7BCD2A-C0BB-465B-8E69-6CCE1DB64890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF1A81D-4B6B-43D9-894B-D061B71EB68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF1A81D-4B6B-43D9-894B-D061B71EB68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF1A81D-4B6B-43D9-894B-D061B71EB68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF1A81D-4B6B-43D9-894B-D061B71EB68D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
