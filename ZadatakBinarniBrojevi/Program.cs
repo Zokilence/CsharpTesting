@@ -34,9 +34,10 @@ namespace ZadatakBinarniBrojevi
             }
             catch (Exception e)
             {
+                for (int i = 1000; i < 2500; i += 500) Console.Beep(i, 100);
                 Console.WriteLine("Nedozvoljen pokušaj -> " + e.Message);
                 glavnaSkripta();
-             }
+            }
             //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
             void glavnaSkripta()
             {
@@ -63,7 +64,7 @@ namespace ZadatakBinarniBrojevi
                                 binarniZapis1[p] = 0;
                                 break;
                         }
-                    } 
+                    }
                     return binarniZapis1;
                 }
                 int provera = 0;
@@ -89,13 +90,13 @@ namespace ZadatakBinarniBrojevi
                 {
                     Console.Write(binarniZapis[y]);
                 }
-                Console.WriteLine("\n" +"Ponovo? (Ako želite ponovo, odmah unesite nov broj.)");
+                Console.WriteLine("\n" + "Ponovo? (Ako želite ponovo, odmah unesite nov broj.)");
                 glavnaSkripta();
                 //if (Console.ReadLine().ToLower() == "da")
                 //{
                 //    glavnaSkripta();
                 //}
-            } 
+            }
             Console.ReadLine();
         }
     }
