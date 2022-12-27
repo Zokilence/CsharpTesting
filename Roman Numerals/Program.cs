@@ -5,28 +5,37 @@ namespace Roman_Numerals
 {
     class Program
     {
-        //C# Sharp program to convert a given integer value to Roman numerals.
-        static void Main(string[] args)
-        {
+       //C# Sharp program to convert a given integer value to Roman numerals.
             Console.WriteLine("Unestie prirodan broj: ");
-            int input = Int32.Parse(Console.ReadLine());
             Dictionary<int, string> romeDict = new Dictionary<int, string>
             {
-                [1] = "I",
-                [5] = "V",
-                [10] = "X",
-                [50] = "L",
-                [100] = "C",
-                [500] = "D",
                 [1000] = "M",
-            }; 
-            while (input > 0)
+                [500] = "D",
+                [100] = "C",
+                [50] = "L",
+                [10] = "X",
+                [5] = "V",
+                [1] = "I",
+            };
+            int input = Int32.Parse(Console.ReadLine()), b = 0, c = 0;
+            string final = "", s;
+            foreach (var x in romeDict)
             {
-                for (int i = input; i < 0; i++)
-                { 
-
+                while (input - x.Key >= 0)
+                {
+                    input -= x.Key;
+                    final += x.Value;
+                    c += 1;
+                    if (c > 3)
+                    {
+                        final = final.Substring(b, 2);
+                        s = final[b].ToString();
+                    }
                 }
+                c = 0;
             }
+            Console.WriteLine($"Unos u Rimskim Ciframa: {final}");
+Console.ReadKey();
         }
     }
-} 
+    }}
